@@ -1,4 +1,4 @@
-# Mean Reversion Trading strategies for cryptocurrency Data
+# Cryptocurrency Mean Reversion Trading Strategies: Jupyter Notebook Project
 
 ## Description
 
