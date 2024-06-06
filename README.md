@@ -34,10 +34,19 @@ Experiment: Feel free to experiment with the code, modify parameters, or add new
 
 ## Contents
 
-Data Preparation: Retrieve cryptocurrency data using Yahoo Finance API and preprocess it for analysis.
-Data Cleaning: Check for missing values, outliers, and data types, and handle them accordingly.
-Statistical Analysis: Analyze price trends, correlations, and stationarity using visualizations and statistical tests.
-Mean Reversion: Implement mean reversion trading strategies based on Z-scores and moving averages.
+Statistical Analysis
+
+Statistical tests like the Augmented Dickey-Fuller (ADF) test and Phillips-Perron (PP) test are performed to assess stationarity and identify potential mean reversion opportunities in the price series.
+
+Mean Reversion Strategy
+
+A mean reversion trading strategy is implemented based on Z-scores of the spread difference between BTC and AVAX. Potential buy and sell signals are identified when the Z-score crosses predefined thresholds.
+Pairs Trading
+
+A pairs trading strategy is explored based on the historical spread difference between BTC and AVAX, defining entry and exit thresholds to initiate and exit positions.
+Machine Learning Algorithms
+
+A Decision Tree classifier is applied to predict mean reversion signals using various features derived from the data. The model's performance is evaluated using accuracy, precision, recall, and F1-score metrics.
 
 ## Results
 
@@ -45,7 +54,7 @@ The project provides insights into the effectiveness of mean reversion strategie
 
 ## Conclusion
 
-Mean reversion strategies offer potential opportunities for profit in financial markets, but their success depends on various factors such as market conditions, asset selection, and risk management. Further experimentation and validation are recommended before deploying these strategies in live trading environments.
+Mean reversion strategies offer potential opportunities for profit in financial markets, but their success depends on various factors such as market conditions, asset selection, and risk management.The overall model suggests that the machine learning model could support mean reversion algorithms for trading with BTC and AVAX. Further experimentation and validation are recommended before deploying these strategies in live trading environments.
 
 ## Acknowledgments
 
